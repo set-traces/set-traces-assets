@@ -1,0 +1,16 @@
+<html>
+	<title>
+		DURP MEMES
+	</title>
+	<body>
+		<img id="img" alt="loading.." />
+		<script>
+			window.onload = function() {
+				let ind = Math.floor(Math.random() * 2); // will be between 0 and 1
+				let availableMemes = ["skjaerseth.png", "jake_repos.jpg"];
+				let img = document.getElementById("img");
+				img.src = availableMemes[ind];
+			}
+		</script>
+	</body>
+</html>
